@@ -1,0 +1,78 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b7531d;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  margin-top: 8px;
+}
+
+.remove-btn:hover {
+  background-color: #a71d2a;
+}
+
+.card {
+  background-color: rgb(67, 62, 62);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.badge {
+  display: inline-block;
+  background-color: #0b6bcb;
+  padding: 4px 8px;
+  margin: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+}
